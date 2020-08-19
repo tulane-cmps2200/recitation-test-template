@@ -1,0 +1,2 @@
+run = "python -c \"import pytest\" ; if [ $? -eq 1 ]; then pip install -r requirements.txt; fi; pytest -s main.py"
+language = "python"
