@@ -1,2 +1,2 @@
-run = "python3 -c \"import pytest\" ; if [ $? -eq 1 ]; then ./setup.sh; pytest -s main.py"
+run = "export PATH=$PATH:/home/runner/.local/bin; python3 -c \"import pytest\" ; if [ $? -eq 1 ]; then ./setup.sh; pytest -s main.py"
 language = "python"
